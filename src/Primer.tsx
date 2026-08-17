@@ -5,7 +5,7 @@ import {bancos} from './assets/bancos'
 function Primer() {
     const element = '<h1>Hello</h1>';
     const nombre = 'Gabriel';
-    const apellidos = 'Espino Sifuentes';
+    const apellidos = 'Espino';
     const elemento = `<h1>Nombre: ${nombre}</h1>`;
 
     console.log(element);
@@ -23,7 +23,7 @@ function Primer() {
     console.log(getSaludo('Mundo'))
 
     const estudiante = {
-        matricula: 'A01234685',
+        matricula: 'A0000000',
         nombre: 'Gabriel',
         edad: 21,
         dirección: {
@@ -103,7 +103,7 @@ function Primer() {
   return (
     <div>
       <h1>Hola Mundo!</h1>
-      <h2>Gabriel Espino Sifuentes</h2>
+      <h2>Gabriel Espino</h2>
 
       <h3>Lista de Bancos</h3>
       <ul>
